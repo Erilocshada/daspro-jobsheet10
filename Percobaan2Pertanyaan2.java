@@ -31,10 +31,10 @@ public class Percobaan2Pertanyaan2 {
                 }
             }
 
-            System.out.println("Input Penonton Lainnya (y/n):");
+            System.out.println("Input Penonton Lainnya (lanjut/exit):");
             next = sc.nextLine();
 
-            if (next.equalsIgnoreCase("n")) {
+            if (next.equalsIgnoreCase("exit")) {
                 break;
             }
         }
